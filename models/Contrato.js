@@ -1,11 +1,11 @@
 class Contrato {
-    construtor(tipo, idtime, idjogador, inicio, fim) {
+    constructor(id, tipo, idTime, idJogador, inicio, fim) {
         this.id = id;
         this.tipo = tipo;
-        this.idtimetime = idtime
-        this.idjogador = idjogador;
-        this.inicio = inicio
-        this.fim = fim
+        this.idTime = idTime;
+        this.idJogador = idJogador;
+        this.inicio = inicio;
+        this.fim = fim;
     }
     isAtivo() {
         return this.fim == undefined;
